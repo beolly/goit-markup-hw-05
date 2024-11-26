@@ -340,17 +340,17 @@ fill: #4D5AE5;
 
 
 }
-.form-input:placeholder{
+/* .form-input:placeholder{
 
-}
+} */
 .label {
   display: flex;
   flex-direction: column;
  
 }
-.box-span{
+/* .box-span{
 
-}
+} */
 
 .form-icon-active{
   margin-right: 8px;
@@ -373,8 +373,8 @@ cursor: pointer;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   margin-right: 8px;
 }
-.form-area {
-}
+/* .form-area {
+} */
 
 .comment{
   padding: 8px 16px;
