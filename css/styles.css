@@ -248,7 +248,7 @@ section {
   transform: translate(-50%,-50%) scale(0.5);
 
 }
-legend {
+.legend {
   color: var(--NAVY-BLUE, #2e2f42);
 margin-top: 72px;
 margin-bottom: 16px;
@@ -802,26 +802,28 @@ font-size: 16px;
 font-weight: 500;
 line-height: 150%;
 letter-spacing: 0.02em;
-margin-bottom: 16px;
+
 }
 .action-cl{
   display: flex;
   gap: 24px;
 }
 .mail-in{
+  margin-top: 16px;
   border-radius: 4px;
 border: 1px solid var(--WHITE, #FFF);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-background: var(--NAVY-BLUE, #2E2F42);
+background-color: transparent; 
 height: 40px;
 padding-left: 16px;
+font-size: 12px; 
+line-height: 2;
+color: #ffffff;
+ letter-spacing: 0.04em;
 }
 .mail-in:placeholder{
-  color: var(--WHITE, #FFF);
-
-font-weight: 400;
-line-height: 200%;
-letter-spacing: 0.02em;
+  color: #ffffff;
+  width: 264px; 
 
 }
 .mail-send-btn{
@@ -833,7 +835,7 @@ letter-spacing: 0.02em;
 background-color: var(--IRIS, #4D5AE5);
 color: var(--WHITE, #FFF);
 text-align: center;
-
+min-width: 165px; 
 border: none;
 font-size: 16px;
 
