@@ -334,7 +334,7 @@ position: relative;
 .form-input:hover, .form-input:focus{
   border-color: #4d5ae5;
 }
-.form-input:hover .footer-icon, .form-input:focus .form-icon{
+.form-input:hover + .footer-icon, .form-input:focus + .form-icon{
   fill: #4D5AE5;
 }
 
